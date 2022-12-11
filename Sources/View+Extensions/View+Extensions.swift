@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public extension View {
+extension View {
     public func readSize(onChange: @escaping (CGSize) -> Void) -> some View {
         background(
             GeometryReader {
@@ -30,7 +30,7 @@ public extension View {
         }
     }
 
-    public func storeWidth(in width: Binding<CGSize>) -> some View {
+    public func storeWidth(in width: Binding<CGFloat>) -> some View {
         readSize {
             width.wrappedValue = $0.width
         }
