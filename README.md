@@ -1,9 +1,17 @@
 # SizePreferenceKey
 Extend SwiftUI with a new PreferenceKey that holds the View's size! 🛠
 
-### How to use
+## Setup
 
-After you set up the `View`, you can observe its size:
+Add the following to `Package.swift`:
+
+```swift
+.package(url: "https://github.com/stateman92/SizePreferenceKey", exact: .init(0, 0, 2))
+```
+
+[Or add the package in Xcode.](https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app)
+
+## Usage
 
 ```swift
 Text("Hello, world!")
