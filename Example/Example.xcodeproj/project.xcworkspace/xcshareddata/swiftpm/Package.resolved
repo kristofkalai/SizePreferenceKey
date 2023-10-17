@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/stateman92/SizePreferenceKey",
       "state" : {
-        "revision" : "da1ce745992c27c0f7d4551a488a7c956b26569b",
-        "version" : "0.0.3"
+        "revision" : "fe4d8b2caae6dda8742f7c423a4737fce45579bb",
+        "version" : "0.0.4"
       }
     }
   ],
